@@ -69,6 +69,22 @@ The following diagram illustrates the architecture of the AHB-to-APB Bridge and 
 
 ![AHB to APB Bridge Architecture](ahb-apb-bridge-architecture.png)
 
+## RTL Design and Testbench
+
+The project includes the following Verilog files:
+
+- `ahb2apb_bridge.v` – RTL implementation of the simplified AHB-Lite to APB bridge using a finite state machine (FSM).
+- `tb_ahb2apb_bridge.v` – Testbench with a basic APB memory model to demonstrate write and read transactions.
+
+## Simulation
+
+The testbench includes:
+- Clock and reset generation
+- APB memory model
+- Write transaction
+- Read transaction
+- Read-data comparison
+
 ## Project Report
 
 Refer to the PDF file in this repository for the detailed project documentation.
