@@ -63,6 +63,12 @@ The project report includes:
 
 This project focuses on understanding the AHB-to-APB bridge architecture, protocol conversion, simulation waveform, and RTL synthesis.
 
+## Block Diagram & Architecture
+
+The following diagram illustrates the architecture of the AHB-to-APB Bridge and how it connects the high-performance AHB bus with the low-power APB bus.
+
+![AHB to APB Bridge Architecture](ahb-apb-bridge-architecture.png)
+
 ## Project Report
 
 Refer to the PDF file in this repository for the detailed project documentation.
